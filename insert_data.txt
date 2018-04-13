@@ -1,0 +1,80 @@
+
+
+
+//Nikon dslr
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-100', '1', '1', 'HIYUKI', 'Sharp DSLR with 20MP Front with video recording', '20 MP video 4K quality plus night mode', '350', '480', '25', 'ABC-100.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-101', '1', '1', 'HIYUKI123', '40MP Front with video 5k recording', '40 MP video 5K quality plus night mode 4K', '450', '600', '12', 'ABC-101.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-102', '1', '1', 'HIYUKI12', '80MP Front with video 5k recording with panorama effect video', '60 MP video 5K quality plus night mode 5K', '600', '900', '15', 'ABC-102.jpg');
+
+//Nikon point Shoot
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-103', '2', '1', 'BFHUI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '18', 'ABC-103.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-104', '2', '1', 'BFHUI2', '35MP Front with video 1920x1280 recording', '35 MP video 4K quality plus night mode 4K', '500', '750', '0', 'ABC-104.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-105', '2', '1', 'BFHUI3', '48MP Front with video 1920x1280 recording', '48 MP video 5K quality plus night mode 5K', '700', '880', '5', 'ABC-105.jpg');
+
+//Nikon Underwater
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-106', '4', '1', 'BI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '9', 'ABC-106.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-107', '4', '1', 'BI2', '35MP Front with video 1920x1280 recording', '35 MP video 4K quality plus night mode 4K', '500', '750', '0', 'ABC-107.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-108', '4', '1', 'BI3', '48MP Front with video 1920x1280 recording', '48 MP video 5K quality plus night mode 5K', '700', '880', '15', 'ABC-108.jpg');
+
+//Nikon Film
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-109', '5', '1', 'BFHUI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '300', '500', '10', 'ABC-109.jpg');
+
+//Nikon Advanced
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-110', '3', '1', 'BFHUGI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '750', '20', 'ABC-110.jpg');
+
+
+//Canon dslr
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-111', '1', '2', 'DVDSVS', 'Sharp DSLR with 20MP Front with video recording', '20 MP video 4K quality plus night mode', '350', '480', '25', 'ABC-111.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-112', '1', '2', 'DVDSVS1', '40MP Front with video 5k recording', '40 MP video 5K quality plus night mode 4K', '450', '600', '12', 'ABC-112.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-113', '1', '2', 'DVDSVS2', '80MP Front with video 5k recording with panorama effect video', '60 MP video 5K quality plus night mode 5K', '600', '900', '15', 'ABC-113.jpg');
+
+//Canon point Shoot
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-114', '2', '2', 'SVFV4', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '18', 'ABC-114.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-115', '2', '2', 'DFVD', '35MP Front with video 1920x1280 recording', '35 MP video 4K quality plus night mode 4K', '500', '750', '0', 'ABC-115.jpg');
+
+//Canon Underwater
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-116', '4', '2', 'DBI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '9', 'ABC-116.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-117', '4', '2', 'BID2', '35MP Front with video 1920x1280 recording', '35 MP video 4K quality plus night mode 4K', '500', '750', '0', 'ABC-117.jpg');
+
+
+//Canon Advanced
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-118', '3', '1', 'BFHUGI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '750', '20', 'ABC-118.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-119', '3', '1', 'BFHUGI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '750', '20', 'ABC-119.jpg');
+
+
+//Olympus dslr
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-120', '1', '3', 'HIYUFdfbKI', 'Sharp DSLR with 20MP Front with video recording', '20 MP video 4K quality plus night mode', '350', '480', '25', 'ABC-120.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-121', '1', '3', 'fvdvd', '40MP Front with video 5k recording', '40 MP video 5K quality plus night mode 4K', '450', '600', '12', 'ABC-121.jpg');
+
+//Olympus point Shoot
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-122', '2', '3', 'vdvfdv', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '18', 'ABC-122.jpg');
+
+//Olympus Underwater
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-123', '4', '3', 'fdvdv', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '9', 'ABC-123.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-124', '4', '3', 'BIVsdvdfSFV2', '35MP Front with video 1920x1280 recording', '35 MP video 4K quality plus night mode 4K', '500', '750', '0', 'ABC-124.jpg');
+
+//Olympus Film
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-125', '5', '3', 'sdvds', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '300', '500', '10', 'ABC-125.jpg');
+
+
+//Sony dslr
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-126', '1', '7', 'vdvf', 'Sharp DSLR with 20MP Front with video recording', '20 MP video 4K quality plus night mode', '350', '480', '25', 'ABC-126.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-127', '1', '7', 'vfdv', '40MP Front with video 5k recording', '40 MP video 5K quality plus night mode 4K', '450', '600', '12', 'ABC-127.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-128', '1', '7', 'vfdv', '80MP Front with video 5k recording with panorama effect video', '60 MP video 5K quality plus night mode 5K', '600', '900', '15', 'ABC-128.jpg');
+
+//Sony point Shoot
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-129', '2', '7', 'vdv', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '18', 'ABC-129.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-130', '2', '7', 'BdvsdFHUI2', '35MP Front with video 1920x1280 recording', '35 MP video 4K quality plus night mode 4K', '500', '750', '0', 'ABC-130.jpg');
+
+//Sony Underwater
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-131', '4', '7', 'BIfvf1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '650', '9', 'ABC-131.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-132', '4', '7', 'BsdvI2', '35MP Front with video 1920x1280 recording', '35 MP video 4K quality plus night mode 4K', '500', '750', '0', 'ABC-132.jpg');
+
+//Sony Film
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-133', '5', '7', 'BFsdvdfHUI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '300', '500', '10', 'ABC-133.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-134', '5', '7', 'BFHUvfdI1', '35MP Front with video 1920x1280 recording', '35 MP video 1920x1280 quality plus night mode 4K', '300', '600', '10', 'ABC-134.jpg');
+
+
+//Sony Advanced
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-135', '3', '7', 'BFHDFVUGI1', '25MP Front with video 1920x1280 recording', '25 MP video 1920x1280 quality plus night mode 4K', '400', '750', '20', 'ABC-135.jpg');
+INSERT into product (sku, catID, venID, vendorModel, description, features, cost, retail, quantity, image) values ('ABC-136', '3', '7', 'BFHUGIRV1', '45MP Front with video 1920x1280 recording', '45 MP video 1920x1280 quality plus night mode 4K', '400', '1000', '0', 'ABC-136.jpg');

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Products</title>
+	<meta http-equiv="content-type"
+		content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css' />
+  	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One" rel="stylesheet" />
+  	 <link rel="stylesheet" type="text/css" href="maincss.css" />
+     <script type="text/javascript" src="getdata.js"></script>
+     <script type="text/javascript" src="ajax_populate.js"></script>
+     <script type="text/javascript" src="shopping_cart.js"></script>
+</head>
+
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Yogesh's Camera Store</h1>
+    <p>Let us brighten your life with colors</p>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <a class="navbar-brand" href="https://www.sdsu.edu/">SDSU</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="./proj2.html">Home</a></li>
+        <li class="active"><a href="./products.html">Products</a></li>
+        <li><a href="./cart_details.html">Order Online</a></li>
+        <li><a href="./about.html">About Us </a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+       <li class="active"><a id='cart_a_href' href="./cart_details.html">Your Cart: <span id="count" class="glyphicon glyphicon-shopping-cart"> 0</span></a></li>
+    </div>
+  </div>
+</nav>
+<div id="errorBox"></div>
+<div><h3>Filter</h3></div>
+<form id="filter_form" enctype="multipart/form-data" action="" method="post">
+
+        <fieldset>
+            <label>Brand</label>
+            <label class="brand_class">
+             <select id="brand_id" name="brand">
+                <option value="All" selected="selected">All</option>
+                <option value="1">Nikon</option>
+                <option value="2">Canon</option>
+								<option value="3">Olympus</option>
+                <option value="7">Sony</option>
+            </select></label>
+      </fieldset>
+
+          <fieldset>
+            <label>Category</label>
+           <label class="category_class">
+             <select id="category_id" name="category">
+               <option value="none" selected="selected">Any</option>
+               <option value="1">Digital SLR Cameras</option>
+							 <option value="2">Point and Shoot</option>
+							 <option value="3">Advanced Amateur</option>
+							 <option value="4">Underwater</option>
+						   <option value="5">Film</option>
+             </select></label>
+          </fieldset>
+          <input type="submit" id="search_button" value="Search!" />
+           <div class="clearing_class"></div>
+     </form>
+     <hr />
+     <div id="content">
+     </div>
+
+
+</body>
+</html>
