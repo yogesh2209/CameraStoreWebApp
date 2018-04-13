@@ -12,5 +12,7 @@ Concepts to be cleared by this mini project :-
 <img src="https://github.com/yogesh2209/CameraStoreWebApp/blob/master/Screenshots/Screen%20Shot%202018-04-12%20at%209.47.15%20PM.png" width="50%"/>
 <img src="https://github.com/yogesh2209/CameraStoreWebApp/blob/master/Screenshots/Screen%20Shot%202018-04-12%20at%209.47.19%20PM.png" width="50%"/>
 <img src="https://github.com/yogesh2209/CameraStoreWebApp/blob/master/Screenshots/Screen%20Shot%202018-04-12%20at%209.48.49%20PM.png" width="50%"/>
+<img src="https://github.com/yogesh2209/CameraStoreWebApp/blob/master/Screenshots/Screen%20Shot%202018-04-12%20at%209.48.10%20PM.png" width="50%"/>
+<img src="https://github.com/yogesh2209/CameraStoreWebApp/blob/master/Screenshots/Screen%20Shot%202018-04-12%20at%209.47.58%20PM.png" width="50%"/>
 
 ### Let me know if you have any queries.
